@@ -1,1 +1,13 @@
 # todolist-php
+
+## Requirements to use this project:
+1. php installed on your machine (prefereablly version 7.4)
+2. MySQL
+3. Composer
+
+How to use:
+1. After cloning to your machine, go to the main folder ('todolist-php'), then run the code below in the terminal.
+  a. composer dump-autoload   //This will activate the composer and start to build your project.
+2. Go to 'mysql_creds.json' in the main folder and input your credentials for your MySql.
+3. You're all good to go. Just go to your terminal, inside your main folder of this repo and run the code below:
+  a. php -S localhost:8000  // This will look for your 'index.php' file in this project and run it your localhost in port 8000. Just open your browser and type ('localhost:8000') 

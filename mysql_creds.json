@@ -1,0 +1,23 @@
+{
+    "creds": {
+        "host" : "",
+        "root" : "",
+        "root_password" : "",
+        "user" :"",
+        "user_pass" : "",
+        "database_name" : "todolist_php"
+    },
+
+    "users_table" : {
+        "table_name" : "users",
+        "username" : "username",
+        "password" : "password",
+        "created_at" : "created_at"
+    },
+
+    "tasks_table" : {
+        "table_name" : "tasks",
+        "task_name" : "task_name",
+        "created_at" : "created_at"
+    }
+}
